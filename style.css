@@ -268,42 +268,6 @@ a {
 
 
 .section-container-img {
-    width: 100%;
-    /* или укажите нужную ширину */
-    height: 100%;
-    /* или укажите нужную высоту */
-    background-size: cover;
-    /* растягивает изображение, чтобы заполнить контейнер */
-    background-position: center;
-    /* центрирует изображение */
-}
-
-.main-section__img--size-320 {
-    background-image: url('_MG_3223 (1).svg');
-    /* замените на путь к вашему изображению */
-}
-
-.main-section__img--size-768 {
-    background-image: url('_MG_3223 (1).svg');
-    /* замените на путь к вашему изображению */
-}
-
-.main-section__img--size-1120 {
-    background-image: url('_MG_3223 (1).svg');
-    /* замените на путь к вашему изображению */
-}
-
-
-
-
-
-
-
-
-
-
-
-.section-container-img {
     text-align: center;
 }
 
@@ -311,6 +275,7 @@ a {
     display: inline-block;
     max-width: 100%;
     margin-bottom: 15px;
+    max-height: 100%;
 }
 
 .main-section__img--size-768 {
