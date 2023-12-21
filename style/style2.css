@@ -29,7 +29,6 @@ body {
     flex-wrap: nowrap;
 }
 
-
 .button {
     display: flex;
     flex-wrap: nowrap;
@@ -45,18 +44,14 @@ body {
 
 .button--item2 {
     background-image: url(assets/item4.png);
-
-
 }
 
 .button--item3 {
     background-image: url(assets/item5.png);
-
 }
 
 .button--item4 {
     background-image: url(assets/item6.png);
-
 }
 
 .custom-background {
@@ -106,7 +101,6 @@ body {
 .header-container__item--display-n {
     display: none;
 }
-
 
 .header-container__item {
     margin-right: 20px;
@@ -369,7 +363,6 @@ a {
         align-items: center;
         background-color: #fff;
         flex-grow: 1;
-        /* Добавлено свойство flex-grow для растяжения контейнера */
     }
 
     .button {
@@ -427,8 +420,6 @@ a {
         margin-left: -2px;
         margin-right: 10px;
     }
-
-
 
     .header-container__item--display-n {
         display: inline-flex;
@@ -522,22 +513,6 @@ a {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 1120px) {
     body {
         margin: 0;
@@ -549,8 +524,6 @@ a {
         min-height: 100vh;
 
     }
-
-
 
     .main-title {
         color: #1b1c21;
@@ -587,7 +560,6 @@ a {
     ;
     /* Цвет линии */
 
-
     .second-title--position-r,
     .button--btn-display-1120,
     .main-section__paragraph--size-l {
@@ -608,7 +580,6 @@ a {
         padding-left: 50px;
     }
 
-
     .second-title--position-r {
         display: block;
         max-width: 125px;
@@ -621,7 +592,6 @@ a {
         margin-left: 10px;
         white-space: nowrap;
     }
-
 
     .button--display-n {
         display: block;
@@ -647,7 +617,6 @@ a {
         letter-spacing: 0.2px;
         margin-top: 6px;
     }
-
 
     .main-section__paragraph--size-s {
         max-width: 590px;
