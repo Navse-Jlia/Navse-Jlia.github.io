@@ -4,13 +4,13 @@ body {
     font-family: 'TT Lakes';
 }
 
+
 @font-face {
-    font-family: "TT Lakes";
-    src: url("assets/TTLakes-Medium.woff2") format("woff2"),
-        url("assets/TTLakes-Medium.woff") format("woff");
-    font-weight: 500;
+    font-family: 'TT Lakes';
+    src: url('assets/TTLakes-Medium.eot');
+    src: url('TTLakes-Medium.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 .main-container {
@@ -38,36 +38,36 @@ body {
 }
 
 .button--item1 {
-    background-image: url(assets/item1.png);
+    background-image: url("http://127.0.0.1:5500/assets/but.png");
     margin-left: 15px;
 }
 
 .button--item2 {
-    background-image: url(assets/item4.png);
+    background-image: url("http://127.0.0.1:5500/assets/item4.png");
 }
 
 .button--item3 {
-    background-image: url(assets/item5.png);
+    background-image: url("http://127.0.0.1:5500/assets/item5.png");
 }
 
 .button--item4 {
-    background-image: url(assets/item6.png);
+    background-image: url("http://127.0.0.1:5500/assets/item6.png");
 }
 
 .custom-background {
-    background-image: url(assets/item7.png);
+    background-image: url("http://www.w3.org/2000/svg");
     width: 2px;
     height: 32px;
 }
 
 .button--item5 {
-    background-image: url(assets/item8.png);
+    background-image: url("http://127.0.0.1:5500/assets/item8.png");
     margin-top: -64px;
     margin-left: 200px;
 }
 
 .button--item6 {
-    background-image: url(assets/item9.png);
+    background-image: url("http://127.0.0.1:5500/assets/item9.png");
     margin-top: -40px;
     margin-left: 260px;
 }
@@ -147,7 +147,7 @@ body {
     font-family: TT Lakes;
     font-size: 28px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 40px;
     letter-spacing: -0.6px;
 }
@@ -218,7 +218,9 @@ a {
 
 .main-nav__link--indent:hover,
 .main-nav__link--indent:focus {
-    border: 5px solid #B8FFEC;
+    outline: 5px solid #B8FFEC;
+    outline-offset: -5px;
+
 }
 
 .review-button {
@@ -365,6 +367,7 @@ a {
         flex-grow: 1;
     }
 
+
     .button {
         display: flex;
         flex-wrap: nowrap;
@@ -374,47 +377,54 @@ a {
     }
 
     .button--item1 {
-        background-image: url(assets/item1.png);
+        background-image: url("http://127.0.0.1:5500/assets/but.png");
         margin-left: 15px;
 
     }
 
     .button--item2 {
-        background-image: url(assets/item4.png);
+        background-image: url("http://127.0.0.1:5500/assets/item4.png");
         margin-top: -40px;
         margin-left: 470px;
     }
 
     .button--item3 {
-        background-image: url(assets/item5.png);
+        background-image: url("http://127.0.0.1:5500/assets/item5.png");
         margin-top: -40px;
         margin-left: 525px;
     }
 
     .button--item4 {
-        background-image: url(assets/item6.png);
+        background-image: url("http://127.0.0.1:5500/assets/item6.png");
         margin-top: -40px;
         margin-left: 580px;
+        position: relative;
     }
 
     .custom-background {
-        background-image: url(assets/item7.png);
+        background-image: url("http://www.w3.org/2000/svg");
         width: 2px;
         height: 32px;
         margin-left: -90px;
     }
 
     .button--item5 {
-        background-image: url(assets/item8.png);
+        background-image: url("http://127.0.0.1:5500/assets/item8.png");
         margin-top: -64px;
         margin-left: 650px;
     }
 
     .button--item6 {
-        background-image: url(assets/item9.png);
+        background-image: url("http://127.0.0.1:5500/assets/item9.png");
         margin-top: -40px;
         margin-left: 705px;
+
     }
+
+
+
+
+
 
     .header-container__logo {
         margin-left: -2px;
@@ -508,6 +518,19 @@ a {
 
     .main-section__img--size-320 {
         display: none;
+
+    }
+
+    .button--item4::after {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 32px;
+        background-color: #EAEAEA;
+
+        top: 5px;
+        left: 56px;
+        /* Изменил значение right на 0 */
     }
 
 
@@ -545,26 +568,11 @@ a {
         margin-bottom: 0;
     }
 
-    /*.main-title--size-s::before {
-        content: '';
-       
-    position: absolute;
-   
-    top: 17px;
-    left: 0;
-    width: 4px;
-   
-    height: 50px;
-    
-    background-color: #41F6D7;
-    ;
-    /* Цвет линии */
-
     .second-title--position-r,
     .button--btn-display-1120,
     .main-section__paragraph--size-l {
         display: block !important;
-        /* Используем !important, чтобы убедиться, что стили переопределяются */
+
     }
 
     .header-container {
