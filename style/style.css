@@ -38,20 +38,20 @@ body {
 }
 
 .button--item1 {
-    background-image: url("http://127.0.0.1:5500/assets/but.png");
+    background-image: url("assets/img/burger.png");
     margin-left: 15px;
 }
 
 .button--item2 {
-    background-image: url("http://127.0.0.1:5500/assets/item4.png");
+    background-image: url("assets/img/call.png");
 }
 
 .button--item3 {
-    background-image: url("http://127.0.0.1:5500/assets/item5.png");
+    background-image: url("assets/img/chat.png");
 }
 
 .button--item4 {
-    background-image: url("http://127.0.0.1:5500/assets/item6.png");
+    background-image: url("assets/img/profile.png");
 }
 
 .custom-background {
@@ -61,13 +61,13 @@ body {
 }
 
 .button--item5 {
-    background-image: url("http://127.0.0.1:5500/assets/item8.png");
+    background-image: url("assets/img/repair.png");
     margin-top: -64px;
     margin-left: 200px;
 }
 
 .button--item6 {
-    background-image: url("http://127.0.0.1:5500/assets/item9.png");
+    background-image: url("assets/img/checkstatus.png");
     margin-top: -40px;
     margin-left: 260px;
 }
@@ -377,25 +377,25 @@ a {
     }
 
     .button--item1 {
-        background-image: url("http://127.0.0.1:5500/assets/but.png");
+        background-image: url("assets/img/burger.png");
         margin-left: 15px;
 
     }
 
     .button--item2 {
-        background-image: url("http://127.0.0.1:5500/assets/item4.png");
+        background-image: url("assets/img/call.png");
         margin-top: -40px;
         margin-left: 470px;
     }
 
     .button--item3 {
-        background-image: url("http://127.0.0.1:5500/assets/item5.png");
+        background-image: url("assets/img/chat.png");
         margin-top: -40px;
         margin-left: 525px;
     }
 
     .button--item4 {
-        background-image: url("http://127.0.0.1:5500/assets/item6.png");
+        background-image: url("assets/img/profile.png");
         margin-top: -40px;
         margin-left: 580px;
         position: relative;
@@ -409,13 +409,13 @@ a {
     }
 
     .button--item5 {
-        background-image: url("http://127.0.0.1:5500/assets/item8.png");
+        background-image: url("assets/img/repair.png");
         margin-top: -64px;
         margin-left: 650px;
     }
 
     .button--item6 {
-        background-image: url("http://127.0.0.1:5500/assets/item9.png");
+        background-image: url("assets/img/checkstatus.png");
         margin-top: -40px;
         margin-left: 705px;
 
