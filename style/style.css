@@ -8,8 +8,8 @@ body {
 @font-face {
     font-family: 'TT Lakes';
     src: local("TT Lakes Regular"),
-        url('assets/font/TTLakes-Regular.woff') format("woff"),
-        url('assets/font/TTLakes-Regular.eot') format('embedded-opentype');
+        url('../assets/font/TTLakes-Regular.woff') format("woff"),
+        url('../assets/font/TTLakes-Regular.eot') format('embedded-opentype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -29,7 +29,7 @@ body {
     font-family: 'TT Lakes';
     src: local("TT Lakes Bold"),
         url('../assets/font/TTLakes-Bold.woff') format("woff"),
-        url('assets/font/TTLakes-Bold.eot') format('embedded-opentype');
+        url('../assets/font/TTLakes-Bold.eot') format('embedded-opentype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
